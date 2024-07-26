@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/debgibm/Lfx_demo2Project
   gitUsername: debgibm
   gitBranch: main
+services:
+- serviceName: project.lfx_demo2.integrations:log_dada
+  packages:
+  - name: Lfx_demo2Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
