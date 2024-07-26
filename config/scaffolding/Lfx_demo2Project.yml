@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Lfx_demo2Project
+  gitServerName: https://github.com/debgibm/lfx_demo2
+  gitUrl: https://github.com/debgibm/Lfx_demo2Project
+  gitUsername: debgibm
+  gitBranch: main
